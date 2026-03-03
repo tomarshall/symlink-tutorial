@@ -11,7 +11,7 @@ No lectures. No walls of text. Just a tight feedback loop: hypothesize, run, obs
 ## Prerequisites
 
 - [Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview) installed
-- A terminal (macOS or Linux)
+- A terminal running bash or zsh (macOS or Linux)
 - ~55 minutes
 
 ## Quick start
