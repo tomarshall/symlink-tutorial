@@ -1,0 +1,2 @@
+Hello from the original file
+I'm appending this to the original file via the symlink
