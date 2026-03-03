@@ -1,4 +1,0 @@
-phase: 9
-status: completed
-covered: All phases complete. Strong throughout — correctly predicted most behaviors, good intuitions about hard links, portability trade-offs, and real-world patterns. Final mental model: symlink = tiny file storing a path string, transparent to most commands, relative vs absolute trade-offs, hard links as same-inode dual names.
-notes: Session complete. Tom's final summary was thorough and accurate.

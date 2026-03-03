@@ -30,7 +30,7 @@ A tiny file that stores a path string. Most commands follow it transparently —
 | Type | Pros | Cons |
 |------|------|------|
 | **Relative** (`foo/file.txt`) | Portable — whole directory tree can move or be copied to another machine | Breaks if you move the symlink relative to its target |
-| **Absolute** (`/Users/tom/foo/file.txt`) | Survives moving the symlink anywhere | Breaks if the target moves, or on a different machine |
+| **Absolute** (`/home/user/foo/file.txt`) | Survives moving the symlink anywhere | Breaks if the target moves, or on a different machine |
 
 **Key rule:** Relative paths resolve from where the **link lives**, not from where you ran `ln -s`.
 
