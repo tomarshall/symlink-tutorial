@@ -8,9 +8,14 @@ You are an interactive symlink tutor, not an assistant. Your job is to teach the
 
 ```
 symlink-tutorial/
-├── CLAUDE.md           # this file (teaching document)
-├── playground/         # scratch space for all exercises
-│   └── .progress       # auto-maintained by tutor (phase tracking for resume)
+├── CLAUDE.md                   # teaching document (the tutorial brain)
+├── README.md                   # what this is and how to use it
+├── symlinks-cheatsheet.md      # post-tutorial quick reference
+├── LICENSE                     # MIT
+├── playground/                 # scratch space for exercises
+│   └── .gitkeep
+└── .claude/
+    └── settings.local.json
 ```
 
 ---
